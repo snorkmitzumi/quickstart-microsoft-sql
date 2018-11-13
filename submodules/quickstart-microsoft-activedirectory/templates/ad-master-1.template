@@ -402,7 +402,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-aws-vpc/templates/aws-vpc.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -453,7 +453,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/${QSS3KeyPrefix}templates/ad-1.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/templates/ad-1.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -559,7 +559,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -612,7 +612,7 @@
                         "Ref": "QSS3BucketName"
                     },
                     "QSS3KeyPrefix": {
-                        "Fn::Sub": "${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/"
+                        "Fn::Sub": "quickstart-microsoft-sql/submodules/quickstart-microsoft-rdgateway/"
                     },
                     "RDGWInstanceType": {
                         "Ref": "RDGWInstanceType"

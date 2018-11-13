@@ -316,7 +316,7 @@
             "Type": "AWS::CloudFormation::Stack",
             "DependsOn": "ADStack",
             "Properties": {
-                "TemplateURL": "https://s3.us-east-2.amazonaws.com/aws-quickstart-vue/quickstart-microsoft-sql/templates/Template_1_SQL_AlwaysOn.template",
+                "TemplateURL": "https://s3.amazonaws.com/quickstart-microsoft-sql/templates/Template_1_SQL_AlwaysOn.template",
                 "Parameters": {
                     "ADServer1PrivateIp": {
                         "Ref": "AD1PrivateIp"

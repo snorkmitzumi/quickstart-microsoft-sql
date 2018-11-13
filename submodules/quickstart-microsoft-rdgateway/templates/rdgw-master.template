@@ -287,7 +287,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-aws-vpc/templates/aws-vpc.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -339,7 +339,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/${QSS3KeyPrefix}templates/rdgw-standalone.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/templates/rdgw-standalone.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
