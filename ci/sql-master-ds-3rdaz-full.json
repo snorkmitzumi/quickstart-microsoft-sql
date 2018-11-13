@@ -1,0 +1,38 @@
+[
+    {
+        "ParameterKey": "ADScenarioType",
+        "ParameterValue": "AWS Directory Service for Microsoft AD (Enterprise Edition)"
+    },
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "$[taskcat_getaz_3]"
+    },
+    {
+        "ParameterKey": "DomainAdminPassword",
+        "ParameterValue": "$[taskcat_genpass_16]"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "$[taskcat_getkeypair]"
+    },
+    {
+        "ParameterKey": "RDGWCIDR",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "RestoreModePassword",
+        "ParameterValue": "$[taskcat_genpass_16]"
+    },
+    {
+        "ParameterKey": "SQLServiceAccountPassword",
+        "ParameterValue": "$[taskcat_genpass_16]"
+    },
+    {
+        "ParameterKey": "SQLLicenseProvided",
+        "ParameterValue": "no"
+    },
+    {
+        "ParameterKey": "ThirdAZ",
+        "ParameterValue": "full"
+    }
+]
