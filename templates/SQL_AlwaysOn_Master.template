@@ -34,7 +34,7 @@
             "Default": "t2.small",
             "AllowedValues": [
                 "t2.small",
-                "t2.medium"
+                "t3.medium"
             ]
         },
         "RDGWInstanceType": {

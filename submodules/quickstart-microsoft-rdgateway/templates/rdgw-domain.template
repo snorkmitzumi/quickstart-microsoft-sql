@@ -177,9 +177,9 @@
         "RDGWInstanceType": {
             "Description": "Amazon EC2 instance type for the Remote Desktop Gateway instances",
             "Type": "String",
-            "Default": "t2.large",
+            "Default": "t3.medium",
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m3.large",
                 "m3.xlarge",
                 "m3.2xlarge",

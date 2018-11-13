@@ -153,7 +153,7 @@
     "Parameters": {
         "ADServer1InstanceType": {
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m4.large",
                 "m4.xlarge",
                 "m4.2xlarge",
@@ -163,7 +163,7 @@
                 "m5.2xlarge",
                 "m5.4xlarge"
             ],
-            "Default": "m4.xlarge",
+            "Default": "t3.medium",
             "Description": "Amazon EC2 instance type for the first Active Directory instance",
             "Type": "String"
         },
@@ -183,7 +183,7 @@
         },
         "ADServer2InstanceType": {
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m4.large",
                 "m4.xlarge",
                 "m4.2xlarge",
@@ -193,7 +193,7 @@
                 "m5.2xlarge",
                 "m5.4xlarge"
             ],
-            "Default": "m4.xlarge",
+            "Default": "t3.medium",
             "Description": "Amazon EC2 instance type for the second Active Directory instance",
             "Type": "String"
         },
@@ -326,9 +326,9 @@
         "RDGWInstanceType": {
             "Description": "Amazon EC2 instance type for the Remote Desktop Gateway instances",
             "Type": "String",
-            "Default": "t2.large",
+            "Default": "t3.medium",
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m4.large",
                 "m4.xlarge",
                 "m4.2xlarge",
@@ -371,8 +371,8 @@
         "CheckSupportedInstances": {
             "RuleCondition": {
                 "Fn::Or" : [
-                    {"Fn::Contains" : [[ "m4.large", "m4.xlarge", "m4.2xlarge", "m4.4xlarge" ], {"Ref" : "ADServer1InstanceType"}]},
-                    {"Fn::Contains" : [[ "m4.large", "m4.xlarge", "m4.2xlarge", "m4.4xlarge" ], {"Ref" : "ADServer2InstanceType"}]}
+                    {"Fn::Contains" : [[ "m4.large", "t3.medium", "m4.xlarge", "m4.2xlarge", "m4.4xlarge" ], {"Ref" : "ADServer1InstanceType"}]},
+                    {"Fn::Contains" : [[ "m4.large", "t3.medium", "m4.xlarge", "m4.2xlarge", "m4.4xlarge" ], {"Ref" : "ADServer2InstanceType"}]}
                 ]
             },
             "Assertions": [

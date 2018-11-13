@@ -281,7 +281,7 @@
         },
         "ADServer1InstanceType": {
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m4.large",
                 "m4.xlarge",
                 "m4.2xlarge",
@@ -291,7 +291,7 @@
                 "m5.2xlarge",
                 "m5.4xlarge"
             ],
-            "Default": "m4.xlarge",
+            "Default": "t3.medium",
             "Description": "Amazon EC2 instance type for the first Active Directory instance",
             "Type": "String"
         },
@@ -311,7 +311,7 @@
         },
         "ADServer2InstanceType": {
             "AllowedValues": [
-                "t2.large",
+                "t3.medium",
                 "m4.large",
                 "m4.xlarge",
                 "m4.2xlarge",
@@ -321,7 +321,7 @@
                 "m5.2xlarge",
                 "m5.4xlarge"
             ],
-            "Default": "m4.xlarge",
+            "Default": "t3.medium",
             "Description": "Amazon EC2 instance type for the second Active Directory instance",
             "Type": "String"
         },
@@ -454,7 +454,7 @@
         },
         "RDGWInstanceType": {
             "AllowedValues": [
-                "t2.medium",
+                "t3.medium",
                 "m3.large",
                 "m3.xlarge",
                 "m3.2xlarge",
@@ -463,7 +463,7 @@
                 "m4.2xlarge",
                 "m4.4xlarge"
             ],
-            "Default": "t2.medium",
+            "Default": "t3.medium",
             "Description": "Amazon EC2 instance type for the Remote Desktop Gateway instances",
             "Type": "String"
         },
@@ -647,12 +647,13 @@
         "WSFCNodeInstanceType": {
             "AllowedValues": [
                 "r5.xlarge",
+                "r5.large",
                 "r5.2xlarge",
                 "r5.4xlarge",
                 "r5.8xlarge"
             ],
             "ConstraintDescription": "Only EBS Optimized instance types r5.xlarge, r5.2xlarge, r5.4xlarge, r5.8xlarge allowed",
-            "Default": "r5.2xlarge",
+            "Default": "r5.large",
             "Description": "Amazon EC2 instance type for the WSFC Nodes",
             "Type": "String"
         }
@@ -717,7 +718,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -794,7 +795,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-activedirectory/templates/${QSADTemplate}",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-activedirectory/templates/${QSADTemplate}",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -953,7 +954,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -1036,7 +1037,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dedicated-hosts.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}templates/dedicated-hosts.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -1083,7 +1084,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/sql.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}templates/sql.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [

@@ -41,7 +41,7 @@
     },
     {
         "ParameterKey": "RDGWInstanceType",
-        "ParameterValue": "t2.large"
+        "ParameterValue": "t3.medium"
     },
     {
         "ParameterKey": "RDGWCIDR",

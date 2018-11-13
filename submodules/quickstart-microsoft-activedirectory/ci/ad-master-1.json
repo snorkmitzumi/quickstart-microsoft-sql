@@ -1,7 +1,7 @@
 [
     {
         "ParameterKey": "ADServer1InstanceType",
-        "ParameterValue": "t2.large"
+        "ParameterValue": "t3.medium"
     },
     {
         "ParameterKey": "ADServer1NetBIOSName",
@@ -13,7 +13,7 @@
     },
     {
         "ParameterKey": "ADServer2InstanceType",
-        "ParameterValue": "t2.large"
+        "ParameterValue": "t3.medium"
     },
     {
         "ParameterKey": "ADServer2NetBIOSName",
@@ -69,7 +69,7 @@
     },
     {
         "ParameterKey": "RDGWInstanceType",
-        "ParameterValue": "t2.large"
+        "ParameterValue": "t3.medium"
     },
     {
         "ParameterKey": "RDGWCIDR",
