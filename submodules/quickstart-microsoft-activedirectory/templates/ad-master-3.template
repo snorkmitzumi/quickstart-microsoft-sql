@@ -281,7 +281,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/quickstart-microsoft-sql/templates/ad-3.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-microsoft-activedirectory/templates/ad-3.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [

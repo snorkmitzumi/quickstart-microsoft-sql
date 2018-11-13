@@ -453,7 +453,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.amazonaws.com/quickstart-microsoft-sql/templates/ad-1.template",
+                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-microsoft-activedirectory/templates/ad-1.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [

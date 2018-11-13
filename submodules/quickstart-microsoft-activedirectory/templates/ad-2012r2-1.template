@@ -557,7 +557,7 @@
                             "c:\\cfn\\scripts\\ConvertTo-EnterpriseAdmin.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/scripts/ConvertTo-EnterpriseAdmin.ps1",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}scripts/ConvertTo-EnterpriseAdmin.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -574,7 +574,7 @@
                             "c:\\cfn\\scripts\\New-CertificateAuthority.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/scripts/New-CertificateAuthority.ps1",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}scripts/New-CertificateAuthority.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -591,7 +591,7 @@
                             "c:\\cfn\\modules\\xAdcsDeployment_0.1.0.0.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/scripts/xAdcsDeployment_0.1.0.0.zip",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}scripts/xAdcsDeployment_0.1.0.0.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -608,7 +608,7 @@
                             "c:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1106,7 +1106,7 @@
                             "c:\\cfn\\scripts\\New-CertificateAuthority.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/scripts/New-CertificateAuthority.ps1",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}scripts/New-CertificateAuthority.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1123,7 +1123,7 @@
                             "c:\\cfn\\modules\\xAdcsDeployment_0.1.0.0.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/scripts/xAdcsDeployment_0.1.0.0.zip",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}scripts/xAdcsDeployment_0.1.0.0.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1140,7 +1140,7 @@
                             "c:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.amazonaws.com/quickstart-microsoft-sql/submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
