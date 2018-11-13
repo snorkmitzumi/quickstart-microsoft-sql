@@ -301,7 +301,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -350,7 +350,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}templates/ad-2.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}templates/ad-2.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -432,7 +432,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-standalone.template",
+                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-standalone.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [

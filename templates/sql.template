@@ -983,7 +983,7 @@
                             "C:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -999,7 +999,7 @@
                             "C:\\cfn\\modules\\AWSQuickStart.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1015,7 +1015,7 @@
                             "C:\\cfn\\scripts\\Join-Domain.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1031,7 +1031,7 @@
                             "C:\\cfn\\scripts\\Rename-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1047,7 +1047,7 @@
                             "C:\\cfn\\scripts\\Enable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1063,7 +1063,7 @@
                             "C:\\cfn\\scripts\\Create-Share.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-Share.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-Share.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1079,7 +1079,7 @@
                             "C:\\cfn\\scripts\\Test-ADUser.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Test-ADUser.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Test-ADUser.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1095,7 +1095,7 @@
                             "C:\\cfn\\scripts\\AddUserToGroup.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1111,7 +1111,7 @@
                             "C:\\cfn\\scripts\\Disable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1426,7 +1426,7 @@
                             "C:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1442,7 +1442,7 @@
                             "C:\\cfn\\modules\\AWSQuickStart.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1458,7 +1458,7 @@
                             "C:\\cfn\\scripts\\Join-Domain.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1474,7 +1474,7 @@
                             "C:\\cfn\\scripts\\Rename-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1490,7 +1490,7 @@
                             "C:\\cfn\\scripts\\Restart-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1506,7 +1506,7 @@
                             "C:\\cfn\\scripts\\Install-WindowsFailoverClustering.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1522,7 +1522,7 @@
                             "C:\\cfn\\scripts\\Install-NETFrameworkCore.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1538,7 +1538,7 @@
                             "C:\\cfn\\scripts\\OpenWSFCPorts.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1554,7 +1554,7 @@
                             "C:\\cfn\\scripts\\Enable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1570,7 +1570,7 @@
                             "C:\\cfn\\scripts\\DownloadSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1586,7 +1586,7 @@
                             "C:\\cfn\\scripts\\Create-ADServiceAccount.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-ADServiceAccount.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-ADServiceAccount.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1602,7 +1602,7 @@
                             "C:\\cfn\\scripts\\Test-ADUser.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Test-ADUser.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Test-ADUser.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1618,7 +1618,7 @@
                             "C:\\cfn\\scripts\\AddUserToGroup.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1634,7 +1634,7 @@
                             "C:\\cfn\\scripts\\InstallSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1650,7 +1650,7 @@
                             "C:\\cfn\\scripts\\Reconfigure-SQL.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1666,7 +1666,7 @@
                             "C:\\cfn\\scripts\\SetMaxDOP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -1682,7 +1682,7 @@
                             "C:\\cfn\\scripts\\Disable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2251,7 +2251,7 @@
                             "C:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2267,7 +2267,7 @@
                             "C:\\cfn\\modules\\AWSQuickStart.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2283,7 +2283,7 @@
                             "C:\\cfn\\scripts\\Join-Domain.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2299,7 +2299,7 @@
                             "C:\\cfn\\scripts\\Rename-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2315,7 +2315,7 @@
                             "C:\\cfn\\scripts\\Restart-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2331,7 +2331,7 @@
                             "C:\\cfn\\scripts\\Install-WindowsFailoverClustering.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2347,7 +2347,7 @@
                             "C:\\cfn\\scripts\\Install-NETFrameworkCore.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2363,7 +2363,7 @@
                             "C:\\cfn\\scripts\\OpenWSFCPorts.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2379,7 +2379,7 @@
                             "C:\\cfn\\scripts\\Enable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2395,7 +2395,7 @@
                             "C:\\cfn\\scripts\\DownloadSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2411,7 +2411,7 @@
                             "C:\\cfn\\scripts\\InstallSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2427,7 +2427,7 @@
                             "C:\\cfn\\scripts\\Reconfigure-SQL.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2443,7 +2443,7 @@
                             "C:\\cfn\\scripts\\SetMaxDOP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2459,7 +2459,7 @@
                             "C:\\cfn\\scripts\\Disable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2943,7 +2943,7 @@
                             "C:\\cfn\\scripts\\Unzip-Archive.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Unzip-Archive.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2959,7 +2959,7 @@
                             "C:\\cfn\\modules\\AWSQuickStart.zip": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/modules/AWSQuickStart.zip",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2975,7 +2975,7 @@
                             "C:\\cfn\\scripts\\Join-Domain.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Join-Domain.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -2991,7 +2991,7 @@
                             "C:\\cfn\\scripts\\Rename-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Rename-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3007,7 +3007,7 @@
                             "C:\\cfn\\scripts\\Restart-Computer.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Restart-Computer.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3023,7 +3023,7 @@
                             "C:\\cfn\\scripts\\Install-WindowsFailoverClustering.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-WindowsFailoverClustering.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3039,7 +3039,7 @@
                             "C:\\cfn\\scripts\\Install-NETFrameworkCore.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Install-NETFrameworkCore.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3055,7 +3055,7 @@
                             "C:\\cfn\\scripts\\OpenWSFCPorts.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/OpenWSFCPorts.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3071,7 +3071,7 @@
                             "C:\\cfn\\scripts\\Enable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Enable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3087,7 +3087,7 @@
                             "C:\\cfn\\scripts\\DownloadSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/DownloadSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3103,7 +3103,7 @@
                             "C:\\cfn\\scripts\\AddUserToGroup.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/AddUserToGroup.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3119,7 +3119,7 @@
                             "C:\\cfn\\scripts\\InstallSQLEE.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/InstallSQLEE.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3135,7 +3135,7 @@
                             "C:\\cfn\\scripts\\Reconfigure-SQL.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Reconfigure-SQL.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3151,7 +3151,7 @@
                             "C:\\cfn\\scripts\\Configure-WSFC.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Configure-WSFC.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Configure-WSFC.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3167,7 +3167,7 @@
                             "C:\\cfn\\scripts\\Create-Share.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-Share.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Create-Share.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3183,7 +3183,7 @@
                             "C:\\cfn\\scripts\\Set-Folder-Permissions.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Set-Folder-Permissions.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Set-Folder-Permissions.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3199,7 +3199,7 @@
                             "C:\\cfn\\scripts\\Enable-AlwaysOn.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Enable-AlwaysOn.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Enable-AlwaysOn.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3215,7 +3215,7 @@
                             "C:\\cfn\\scripts\\Set-ClusterQuorum.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/Set-ClusterQuorum.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/Set-ClusterQuorum.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3231,7 +3231,7 @@
                             "C:\\cfn\\scripts\\SetMaxDOP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}scripts/SetMaxDOP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
@@ -3247,7 +3247,7 @@
                             "C:\\cfn\\scripts\\Disable-CredSSP.ps1": {
                                 "source": {
                                     "Fn::Sub": [
-                                        "https://s3.us-east-2.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
+                                        "https://s3.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-utilities/scripts/Disable-CredSSP.ps1",
                                         {
                                             "QSS3Region": {
                                                 "Fn::If": [
