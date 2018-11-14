@@ -311,7 +311,7 @@
                                     ],
                                     "Resource": {
                                         "Fn::Sub": [
-                                            "arn:aws:s3:::quickstart-microsoft-sql/*",
+                                            "arn:${Partition}:s3:::${QSS3BucketName}/${QSS3KeyPrefix}*",
                                             {
                                                 "Partition": {
                                                     "Fn::If": [
