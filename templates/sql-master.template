@@ -718,7 +718,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
+                        "https://s3.amazonaws.com/aws-quickstart-vue/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -795,7 +795,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-activedirectory/templates/${QSADTemplate}",
+                        "https://s3.amazonaws.com/aws-quickstart-vue/${QSS3KeyPrefix}submodules/quickstart-microsoft-activedirectory/templates/${QSADTemplate}",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -954,7 +954,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
+                        "https://s3.amazonaws.com/aws-quickstart-vue/${QSS3KeyPrefix}submodules/quickstart-microsoft-rdgateway/templates/rdgw-domain.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -1037,7 +1037,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dedicated-hosts.template",
+                        "https://s3.amazonaws.com/aws-quickstart-vue/${QSS3KeyPrefix}templates/dedicated-hosts.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -1084,7 +1084,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/sql.template",
+                        "https://s3.amazonaws.com/aws-quickstart-vue/${QSS3KeyPrefix}templates/sql.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
